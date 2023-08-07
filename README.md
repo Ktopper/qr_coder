@@ -37,3 +37,7 @@
 ### Conclusion:
 
 The app is a simple Electron-based desktop application that offers a user-friendly interface for generating QR codes of varying sizes for user-provided URLs.
+
+### how to run
+in the terminal type 'npm install'
+then after install, type 'npm start'

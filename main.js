@@ -5,8 +5,8 @@ let mainWindow;
 
 app.whenReady().then(() => {
     mainWindow = new BrowserWindow({
-        width: 800,
-        height: 600,
+        width: 900,
+        height: 700,
         webPreferences: {
             nodeIntegration: true, // Enable nodeIntegration.
             contextIsolation: false, // Disable contextIsolation.

@@ -1,24 +1,29 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>QR Code Generator</title>
+    <title>QR Coder</title>
+    <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
+    <h1>QR Coder</h1>
+    <div class="container">
+        <div class="button-block">
     <input type="text" id="urlInput" placeholder="Enter URL">
-    <br>
+    <br><br>
     <select id="sizeSelect">
         <option value="100">100x100</option>
         <option value="200">200x200</option>
         <option value="300">300x300</option>
         <option value="400">400x400</option>
     </select>
-    <br>
+    <br><br>
     <button id="generateButton">Generate QR</button>
-    <br>
+    </div>
+    <div class="result-block">
     <canvas id="qrCanvas"></canvas>
-
+</div>
     <!-- Link to the external renderer.js script -->
     <script src="renderer.js"></script>
-
+</div>
 </body>
 </html>
