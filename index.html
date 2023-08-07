@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>QR Code Generator</title>
+</head>
+<body>
+    <input type="text" id="urlInput" placeholder="Enter URL">
+    <br>
+    <select id="sizeSelect">
+        <option value="100">100x100</option>
+        <option value="200">200x200</option>
+        <option value="300">300x300</option>
+        <option value="400">400x400</option>
+    </select>
+    <br>
+    <button id="generateButton">Generate QR</button>
+    <br>
+    <canvas id="qrCanvas"></canvas>
+
+    <!-- Link to the external renderer.js script -->
+    <script src="renderer.js"></script>
+
+</body>
+</html>
