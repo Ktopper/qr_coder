@@ -1,5 +1,16 @@
 const { app, BrowserWindow } = require('electron');
 const path = require('path');  // Require the path module to specify the preload script path.
+const { ipcMain, dialog } = require('electron');
+
+ipcMain.handle('show-save-dialog', async () => {
+    const result = await dialog.showSaveDialog({
+        filters: [{
+            name: 'Images',
+            extensions: ['png']
+        }]
+    });
+    return result;
+});
 
 let mainWindow;
 
