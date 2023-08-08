@@ -23,6 +23,13 @@
      - Retrieves the URL and desired size from the UI elements.
      - Renders the QR code to the canvas with the specified size.
 
+### Setting Up the Application:
+
+- Clone or download the project from GitHub.
+- Navigate to the project folder in the terminal.
+- Run npm install to install all required dependencies.
+- Launch the application with npm start.
+
 #### Workflow:
 
 1. User enters a URL into the provided input field.
@@ -38,6 +45,3 @@
 
 The app is a simple Electron-based desktop application that offers a user-friendly interface for generating QR codes of varying sizes for user-provided URLs.
 
-### how to run
-in the terminal type 'npm install'
-then after install, type 'npm start'
